@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700');
+@import url("hover-min.css");
+
+/*================================
+STANDARD STYLES
+================================*/
+body {
+  font-family: 'Playfair Display', serif;
+}
+.pink {
+  color:#FF93AC;
+}
+
+#banner {
+  height:350px;
+  background-color:#2B2B2B;
+}
+#banner h1 {
+  color:white;
+  float:left;
+  font-size:70px;
+  font-weight:700;
+}
+.header {
+  margin-top:70px;
+  height:280px;
+  cursor:default;
+}
+
+#banner p {
+  color:white;
+  position: absolute;
+  top:307px;
+}
+
+.socialmedia {
+  margin-top:-20px;
+  float:right;
+}
+.socialmedia a {
+  color:#2B2B2B;
+  text-decoration: none;
+}
+#facebook {
+  background-color:white;
+  margin-right:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#facebook:hover {
+  color:#3B5998;
+}
+#linkedin {
+  background-color:white;
+  margin-right:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#linkedin:hover {
+  color:#0083BE;
+}
+#mail {
+  background-color: white;
+  margin-right:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#mail:hover {
+  color:#003399;
+}
+#wordpress {
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#wordpress:hover {
+  color:#1F74AA;
+}
+
+
+
+
+#footer {
+  background-color:#2B2B2B;
+  padding-top:20px;
+  height:100%;
+}
+.links {
+  display:inline-flex;
+  margin-top:40px;
+  padding-bottom:4px;
+  cursor: pointer;
+}
+.links a {
+  color:white;
+  text-decoration: none;
+}
+.social-icon {
+    color: #2B2B2B;
+}
+ul.social-icons {
+    margin-top: 10px;
+    padding:0;
+}
+.social-icons li {
+    display: inline;
+    padding-right:35px;
+    padding-left:35px;
+}
+.social-icons a {
+    color: #fff;
+}
+.fa-facebook {
+    padding:15px 17px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #FF93AC;
+    border-radius:50%;
+}
+.fa-linkedin {
+    padding:15px 15px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #FF93AC;
+    border-radius:50%;
+}
+.fa-wordpress {
+    padding:15px 15px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #FF93AC;
+    border-radius:50%;
+}
+.fa-envelope {
+    padding:15px 15px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #FF93AC;
+    border-radius:50%;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+  #banner h1 {
+    font-size:40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*================================
+PARALLAX BACKGROUND
+================================*/
+.parallax { 
+    background-image:url(../img/colorpalette-01.svg);
+    min-height: 280px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
