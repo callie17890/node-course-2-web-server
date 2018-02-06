@@ -39,18 +39,6 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/projects', (req, res) => {
-  res.render('projects.hbs', {
-    pageTitle: 'projects',
-  });
-});
-
-app.get('/references', (req, res) => {
-  res.render('references.hbs', {
-    pageTitle: 'references',
-  });
-});
-
 app.listen(port, () => {
   console.log(`Server is up on port ${port}`);
 });
